@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Hanuman:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Hanuman:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
 * {
   margin: 0;
@@ -200,24 +200,19 @@
 
 .text1 h1 {
   font-family: "Inter";
-  font-weight: 600;
-  font-style: normal;
+  width: 1442px;
+  height: 51px;
   font-size: 42px;
-  line-height: 100%;
-  letter-spacing: 0%;
   text-align: center;
   vertical-align: bottom;
-  margin-bottom: 10px;
+  letter-spacing: 1px;
+  font-weight: 600;
 }
 
 .text1 p {
+  padding-top: 10px;
   color: #18181bb2;
-  font-family: "Inter";
-  font-weight: 500;
-  font-style: Medium;
-  font-size: 20px;
-  line-height: 100%;
-  letter-spacing: 0%;
+  font-size: 21px;
   text-align: center;
   vertical-align: bottom;
   text-transform: capitalize;
@@ -255,6 +250,20 @@
 .khuvsgul {
   background: #97cce0cc;
   border: 4px solid #97cce000;
+}
+
+.destination__info p {
+  font-family: "Montserrat" sans-serif;
+  font-weight: 300;
+  font-style: "Regular";
+  font-size: 14px;
+  line-height: 80%;
+}
+.destination__info h2 {
+  font-family: "Inter";
+  font-weight: 400;
+  font-style: "Medium";
+  font-size: 25px;
 }
 
 .destination:hover {
@@ -373,13 +382,13 @@
 .lheader {
   display: flex;
   flex-direction: column;
-  gap: 10px;
-  padding-top: 40px;
+  gap: 13px;
+  padding-top: 36px;
 }
 
 .lheader p {
   font-family: "Inter";
-  font-weight: 500;
+  font-weight: 400;
   font-style: "Medium";
   font-size: 20px;
   line-height: 100%;
@@ -394,9 +403,9 @@
   font-family: "Inter";
   font-weight: 600;
   font-style: "Semi Bold";
-  font-size: 42px;
+  font-size: 45px;
   line-height: 100%;
-  letter-spacing: 0%;
+  letter-spacing: 1%;
   text-align: center;
   vertical-align: bottom;
 }
@@ -472,12 +481,13 @@
   display: flex;
   align-items: center;
   font-family: "Inter";
-  font-weight: 500;
+  font-weight: 400;
   font-style: "Medium";
   font-size: 18px;
   line-height: 100%;
   letter-spacing: 0%;
   vertical-align: bottom;
+  color: #121316;
 }
 
 .details {
@@ -490,13 +500,11 @@
   gap: 10px;
 }
 .price h1 {
-  font-family: "Montserrat" sans-serif;
-  font-weight: 600;
-  font-style: "SemiBold";
+  font-family: "Montserrat", sans-serif;
   font-size: 40px;
+  font-style: normal;
+  font-weight: 550;
   line-height: 100%;
-  letter-spacing: 0%;
-  vertical-align: bottom;
 }
 .pricee {
   font-family: "Inter";
@@ -606,9 +614,9 @@
 
 .doosh {
   color: #6972b5;
-  font-family: "Montserrat" sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
-  font-style: "Bold";
+  font-style: normal;
   font-size: 18px;
   text-align: center;
   vertical-align: bottom;
@@ -620,7 +628,7 @@
   padding-bottom: 10px;
   padding-left: 20px;
   gap: 10px;
-  border-radius: 20px;
+  border-radius: 25px;
   display: flex;
   text-align: center;
   margin: 0px;
@@ -629,7 +637,7 @@
 .deesh {
   width: 101px;
   height: 35px;
-  margin-left: 740px;
+  margin-left: 730px;
 }
 
 .linkz {
